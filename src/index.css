@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  padding: 7rem;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  border: 1px solid #e2e8f0;
+}
+
+th,
+td {
+  border: 1px solid #e2e8f0;
+  padding: 16px;
+  text-align: left;
+  max-width: 100%;
+}
+
+tr:nth-child(even) {
+  background-color: #f8f8f8;
+}
